@@ -1,0 +1,36 @@
+.search-bar-container {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 1px;
+
+  .search-bar {
+    margin-right: 25px;
+    width: 600px;
+    height: 30px;
+  }
+
+  .button-container {
+    display: flex;
+    align-items: center;
+
+    .btnSearch, .btnRefresh {
+      margin-left: 5px;
+      height: 30px; 
+      padding: 0px 10px; 
+      border: 1px solid #ccc; 
+      border-radius: 5px; 
+      background-color: #f0f0f0;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #e0e0e0;
+      }
+    }
+    }
+
+    .btnRefresh {
+      margin-left: 25px;
+    }
+  }
